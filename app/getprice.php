@@ -1,5 +1,8 @@
 <?php
-$url = 'http://b2b.cd-life.by/api/getPrice/?login=***&password=***=["SP00011456","SP00011446","SP00010453","SP00012939","SP00012249","SP00012247","SP00012248","SP00012449","SP00012451","SP00012244","SP00012882","SP00012881","SP00012880","SP00012245","SP00012246","SP00012879","SP00012450","SP00012878","SP00012453"]';
+$data = $_POST['ids'];
+$products = '["'.implode('","',$data).'"]';
+
+$url = 'http://b2b.cd-life.by/api/getPrice/?login=****&password=****&id='.$products;
 $result = file_get_contents ($url);
 echo $result;
 ?>

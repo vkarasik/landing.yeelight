@@ -11,6 +11,7 @@
         <title>Yeelight | Купить в Беларуси</title>
         <meta name="description" content="При покупке продукции YeeLight у официальных дилеров, вы получаете 100% оригинальный продукт с официальной гарантией от поставщика"/>
         <?php include '../includes/head.html'; ?>
+        <script src="/js/getPrice.js?09.12.18" defer></script>
     </head>
     <body>
         <div class="container-fluid">

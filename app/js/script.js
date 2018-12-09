@@ -225,19 +225,6 @@ $(function () {
               $(this).text(data[nameItem]);
           })
       }) */
-
-    $.ajax({
-        type: "POST",
-        url: "../getprice.php"
-    }).done(function (result) {
-        var response = JSON.parse(result);
-        var price = response.data.products;
-        price.forEach(function(item){
-            var sku = item.article;
-            var rrp = item.rrprice;
-            document.getElementById(sku).textContent = rrp;
-        })
-    });
 });
 
 // Я зрабіў усё што змог, хто зможа, хай зробіць лепш!
