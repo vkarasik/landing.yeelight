@@ -11,6 +11,7 @@
         <title>Yeelight | Купить в Беларуси</title>
         <meta name="description" content="При покупке продукции YeeLight у официальных дилеров, вы получаете 100% оригинальный продукт с официальной гарантией от поставщика"/>
         <?php include '../includes/head.html'; ?>
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=6cd0443b-0b85-4074-8581-5cc018b8ffd3&lang=ru_RU"></script>
         <script src="/js/getPrice.js?09.12.18" defer></script>
     </head>
     <body>
@@ -23,4 +24,5 @@
         </div>
         <?php include '../includes/counts.html'; ?>
     </body>
+    <script src="../js/ymaps.js"></script>
 </html>
