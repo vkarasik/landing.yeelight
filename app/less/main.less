@@ -1442,7 +1442,7 @@ header {
     .pin {
         margin-bottom: 20px;
 
-        .show-location {
+        .show-location, .show-location-all {
             font-size: 140%;
             border-bottom: 1px dotted @yeelight-color;
             color: @yeelight-color;
@@ -2370,6 +2370,7 @@ footer {
 
             @media(max-width: 768px) {
                 padding: 10% 5%;
+                
             }
         }
     }
@@ -2377,43 +2378,34 @@ footer {
     &_content_6 {
         margin: 0;
 
-        .item_1 {
-            background: url('../img/nox_05_1.jpg') no-repeat center center;
-            background-size: cover;
+        .item{
+            padding: 0 !important;
         }
 
-        .item_2 {
-            background: url('../img/nox_05_2.jpg') no-repeat center center;
-            background-size: cover;
-        }
-
-        .item_3 {
-            background: url('../img/nox_05_3.jpg') no-repeat center center;
-            background-size: cover;
+        img{
+            max-width: 100%;
         }
 
         .text {
-            padding: 50% 0 0;
-            color: @light-text - 30%;
+            padding: 10% 5% 5%;
+            color: @dark-text + 30%;
 
             @media(max-width: 768px) {
                 padding: 50% 0 0;
-                text-align: center;
             }
         }
     }
 
     &_content_7 {
         margin: 0;
-        padding: 70px 0 410px;
-        background: url("../img/nox_06.jpg") no-repeat top center;
-        background-size: cover;
+        background: #999999;
 
         .text {
-            color: @dark-text + 30%;
+            padding: 15% 10% 10%;
+            color: @light-text + 30%;
 
             @media(max-width: 768px) {
-                text-align: center;
+                padding: 10% 5%;
             }
         }
     }
@@ -2477,6 +2469,11 @@ footer {
 
     &_content_11 {
         margin: 0;
+        img{
+            display: block;
+            width: 50%;
+            margin: 0 auto;
+        }
     }
 
 }

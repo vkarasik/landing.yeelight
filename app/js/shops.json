@@ -7,7 +7,7 @@
             },
             "options": {
                 "iconLayout": "default#image",
-                "iconImageHref": "pin.svg",
+                "iconImageHref": "../img/pin.svg",
                 "iconImageSize": [35, 35]
             }
         },
@@ -19,7 +19,7 @@
             },
             "options": {
                 "iconLayout": "default#image",
-                "iconImageHref": "pin.svg",
+                "iconImageHref": "../img/pin.svg",
                 "iconImageSize": [35, 35]
             }
         },
@@ -31,7 +31,7 @@
             },
             "options": {
                 "iconLayout": "default#image",
-                "iconImageHref": "pin.svg",
+                "iconImageHref": "../img/pin.svg",
                 "iconImageSize": [35, 35]
             }
         },
@@ -43,7 +43,7 @@
             },
             "options": {
                 "iconLayout": "default#image",
-                "iconImageHref": "pin.svg",
+                "iconImageHref": "../img/pin.svg",
                 "iconImageSize": [35, 35]
             }
         },
@@ -55,7 +55,7 @@
             },
             "options": {
                 "iconLayout": "default#image",
-                "iconImageHref": "pin.svg",
+                "iconImageHref": "../img/pin.svg",
                 "iconImageSize": [35, 35]
             }
         },
@@ -67,7 +67,7 @@
             },
             "options": {
                 "iconLayout": "default#image",
-                "iconImageHref": "pin.svg",
+                "iconImageHref": "../img/pin.svg",
                 "iconImageSize": [35, 35]
             }
         }
@@ -81,7 +81,7 @@
         },
         "options": {
             "iconLayout": "default#image",
-            "iconImageHref": "pin.svg",
+            "iconImageHref": "../img/pin.svg",
             "iconImageSize": [35, 35]
         }
     }],
@@ -93,7 +93,67 @@
         },
         "options": {
             "iconLayout": "default#image",
-            "iconImageHref": "pin.svg",
+            "iconImageHref": "../img/pin.svg",
+            "iconImageSize": [35, 35]
+        }
+    }],
+    "svetilkin": [{
+        "coordinates": [53.888887, 27.580552],
+        "properties": {
+            "hintContent": "Светилкин — светотехнический магазин",
+            "balloonContent": "Минск, улица Ленина, 27, павильон 46 (шоу-рум). График работы: ежедневно с 10:00 до 20:00 без перерыва. Телефон: +375 (29) 602-33-11, +375 (29) 364-26-97"
+        },
+        "options": {
+            "iconLayout": "default#image",
+            "iconImageHref": "../img/pin.svg",
+            "iconImageSize": [35, 35]
+        }
+    },
+    {
+        "coordinates": [53.933439, 27.632295],
+        "properties": {
+            "hintContent": "Светилкин — светотехнический магазин",
+            "balloonContent": "Минск, улица Кедышко, 24 (магазин-склад). График работы: понедельник - пятница с 08:30 до 18:00 без перерыва. Выходной: Суббота, Воскресенье. Телефон: +375 (29) 603-01-43"
+        },
+        "options": {
+            "iconLayout": "default#image",
+            "iconImageHref": "../img/pin.svg",
+            "iconImageSize": [35, 35]
+        }
+    }],
+    "flamingo": [{
+        "coordinates": [53.929611, 27.584702],
+        "properties": {
+            "hintContent": "Фламинго — салон-магазин по продаже светильников",
+            "balloonContent": "Минск, улица Сурганова, 54. График работы: c 10:00 до 20:00, без выходных. Телефон: +375 (44) 517-00-00"
+        },
+        "options": {
+            "iconLayout": "default#image",
+            "iconImageHref": "../img/pin.svg",
+            "iconImageSize": [35, 35]
+        }
+    }],
+    "mile": [{
+        "coordinates": [53.968892, 27.545212],
+        "properties": {
+            "hintContent": "Mile — строительный гипермаркет",
+            "balloonContent": "Минск, Долгиновский тракт, 188"
+        },
+        "options": {
+            "iconLayout": "default#image",
+            "iconImageHref": "../img/pin.svg",
+            "iconImageSize": [35, 35]
+        }
+    }],
+    "lumio": [{
+        "coordinates": [53.957169,27.605606],
+        "properties": {
+            "hintContent": "Lumio — шоурум",
+            "balloonContent": "Минск, улица Гамарника, 30"
+        },
+        "options": {
+            "iconLayout": "default#image",
+            "iconImageHref": "../img/pin.svg",
             "iconImageSize": [35, 35]
         }
     }]
