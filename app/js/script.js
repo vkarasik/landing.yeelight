@@ -211,6 +211,17 @@ $(function () {
         $(this).siblings('.large-img').attr('src', $(this).attr("src"));
     })
 
+
+    $('.mood').mouseenter(function(){
+        $('.mood-photo').attr('src', '../img/galaxy-mood-photo_0'+$(this).attr('data-mood')+'.jpg')
+    })
+
+    $('.color-switch>span').mouseenter(function(){
+        $('.galaxy_content_6').css('background-image', "url('../img/galaxy-"+ $(this).attr('id') +".jpg')")
+
+    })
+
+
     /*setInterval(function(){
         $(".slide:visible").fadeOut(400, function(){
             $(this).next(".slide").fadeIn(400);

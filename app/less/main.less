@@ -214,11 +214,15 @@ header {
     }
 
     .button-wheretobuy {
-        border: 1px solid @yeelight-color;
         border-radius: 3px;
+        background: @yeelight-color;
 
         a {
-            color: @yeelight-color  !important;
+            color: @light-text  !important;
+        }
+
+        &:hover{
+            background: @yeelight-color + 10%;
         }
     }
 }
@@ -755,6 +759,366 @@ header {
         padding: 200px 0;
         background: url('../img/luna_15.jpg') no-repeat top center;
         background-size: cover;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &_content_17 {
+        margin: 0;
+        padding: 70px 0 400px;
+        background: url('../img/luna_starry2.jpg') no-repeat center center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 70px 0 300px;
+        }
+
+        .text {
+            color: @light-text - 30%;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.galaxy {
+    margin-top: 80px;
+
+    &_content_1 {
+        margin: 0;
+        padding: 200px 0 100px;
+        background: #060606;
+
+        @media(max-width: 768px) {
+            padding: 100px 0 0;
+        }
+
+        .text {
+            color: @light-text - 30%;
+            padding: 0 0 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 0 0 10% 0;
+                text-align: center;
+            }
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &_content_2 {
+        margin: 0;
+
+        img {
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    &_content_3 {
+        margin: 0;
+        padding: 70px 0;
+        background: #F9F9F9;
+        text-align: center;
+
+        img {
+            width: 74px;
+        }
+
+        p {
+            margin-top: 15px;
+            font-size: 160%;
+        }
+    }
+
+    &_content_4 {
+        margin: 0;
+        padding: 70px 0 0;
+        background: #484848;
+        background-size: cover;
+        color: @light-text - 30%;
+        text-align: center;
+
+        img {
+            max-width: 100%;
+            margin-bottom: -5px;
+        }
+
+        .text {
+            margin: 0 auto;
+            width: 90%;
+        }
+
+        p {
+            margin-top: 15px;
+            margin-bottom: 60px;
+            font-family: "HelveticaNeueCyr-Light", Arial, Helvetica, sans-serif;
+            font-size: 160%;
+            color: @light-text - 30%;
+        }
+    }
+
+    &_content_5 {
+        margin: 0;
+
+        img {
+            max-width: 100%;
+        }
+
+        .text {
+            padding: 10% 10% 0 10%;
+            color: @dark-text + 30%;
+
+            @media(max-width: 768px) {
+                padding: 10% 5% 0;
+                text-align: center;
+            }
+        }
+
+        .mood-switch{
+            padding: 5% 0 10%;
+            text-align: center;
+            img{
+                width: 100px;
+                margin: 5px;
+
+                &:hover{
+                    cursor:pointer;
+                    border: 1px solid @yeelight-color;
+                }
+            }
+        }
+    }
+
+    &_content_6 {
+        margin: -3px 0 0 0;
+        padding: 0 0 400px;
+        background-image: url('../img/galaxy-color_01.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transition: all 1s ease 0.3s;
+
+        @media(max-width: 768px) {
+            padding: 0 0 250px
+        }
+
+        .text {
+            padding: 20% 0 0 10%;
+            color: @light-text - 30%;
+
+            @media(max-width: 768px) {
+                padding: 15% 0 0 5%;
+            }
+        }
+
+        .color-switch{
+            padding: 5% 0 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 5% 0 0 5%;
+            }
+
+            span{
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin: 5px;
+
+                &:hover{
+                    cursor:pointer;
+                    border: 3px solid #ffffff;
+                }
+            }
+
+            #color_01{
+                background: #F84763;
+            }
+            #color_02{
+                background: #FFA135;
+            }
+            #color_03{
+                background: #FFDB00;
+            }
+            #color_04{
+                background: #34FDFF;
+            }
+            #color_05{
+                background: #32B7F6;
+            }
+            #color_06{
+                background: #FF34E8;
+            }
+        }
+    }
+
+    &_content_7 {
+        margin: 0;
+        padding: 280px 0;
+        background: url(../img/galaxy_02.jpg) no-repeat center top;
+        background-size: cover;
+
+        .text {
+            color: @dark-text - 30%;
+            padding: 0 0 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 0 0 0 5%;
+            }
+        }
+    }
+
+    &_content_8 {
+        margin: 0;
+        padding: 200px 0;
+        background: url(../img/galaxy_03.jpg) no-repeat center top;
+        background-size: cover;
+
+        .text {
+            color: @light-text + 30%;
+            padding: 0 0 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 0 0 0 5%;
+            }
+        }
+    }
+
+    &_content_9 {
+        margin: 0;
+        padding: 100px 0 450px;
+        background: url('../img/galaxy_04.jpg') no-repeat top center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            background-position: center right;
+        }
+
+        .text {
+            color: @dark-text + 30%;
+
+            @media(max-width: 768px) {
+                text-align: center;
+            }
+        }
+
+    }
+
+    &_content_10 {
+        margin: 0;
+        padding: 100px 0 430px;
+        background: url('../img/galaxy_05.jpg') no-repeat top center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 50px 0 430px;
+        }
+
+        .text {
+            color: @light-text - 30%;
+            text-align: center;
+            padding: 0 0 0 5%;
+
+            @media(max-width: 768px) {
+                text-align: left; 
+            }
+        }
+    }
+
+    &_content_11 {
+        margin: 0;
+        padding: 100px 0 200px;
+        background: url('../img/galaxy_06.jpg') no-repeat top center;
+        background-size: cover;
+
+        .text {
+            color: @dark-text + 30%;
+            padding: 10% 0 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 10% 0 0 5%;
+            }
+        }
+    }
+
+    &_content_12 {
+        margin: 0;
+        padding: 70px 0 70px;
+        background: #515151;
+
+        img {
+            max-width: 100%;
+        }
+
+        .text {
+            color: @light-text - 30%;
+            padding: 15% 5% 0 0;
+
+            @media(max-width: 768px) {
+                padding: 5% 0;
+                text-align: center;
+            }
+        }
+    }
+
+    &_content_13 {
+        margin: 0;
+        padding: 150px 0 300px;
+        background: url(../img/galaxy_08.jpg) no-repeat top center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 100px 0 300px;
+        }
+
+        .text {
+            color: @dark-text + 30%;
+            padding: 0 0 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 0 0 0 5%;
+                text-align: left;
+            }
+        }
+    }
+
+    &_content_14 {
+        margin: 0;
+        padding: 0 0 50px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &_content_15 {
+        margin: 0;
+        padding: 70px 0 400px;
+        background: url('../img/luna_starry2.jpg') no-repeat center center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 70px 0 300px;
+        }
+
+        .text {
+            color: @light-text - 30%;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &_content_16 {
+        margin: 0;
 
         img {
             max-width: 100%;
@@ -1442,7 +1806,8 @@ header {
     .pin {
         margin-bottom: 20px;
 
-        .show-location, .show-location-all {
+        .show-location,
+        .show-location-all {
             font-size: 140%;
             border-bottom: 1px dotted @yeelight-color;
             color: @yeelight-color;
@@ -1536,6 +1901,21 @@ header {
             }
         }
 
+        .galaxy_content_14 & {
+            width: 24%;
+            padding-top: 50px;
+
+            @media(max-width: 760px) {
+                width: 49%;
+            }
+
+            p {
+                font-size: 140%;
+            }
+        }
+
+        
+
         .icon {
             .ledtable_content_8 & {
                 width: 120px;
@@ -1620,6 +2000,10 @@ header {
 
             &.remotecontrol {
                 background: url('../img/ceilamp-icon.png') no-repeat -499px -99px;
+            }
+
+            &.voicecontrol {
+                background: url('../img/ceilamp-icon.png') no-repeat -590px -99px;
             }
 
             &.whitebalance {
@@ -2291,11 +2675,11 @@ footer {
         padding: 150px 0 150px;
         background: linear-gradient(to top, #fafafa, #cac8c9);
 
-        img{
+        img {
             max-width: 100%;
         }
 
-        @media(max-width: 768px){
+        @media(max-width: 768px) {
             padding: 100px 0;
             background: #d2d0d1;
             background-size: cover;
@@ -2364,13 +2748,14 @@ footer {
     &_content_5 {
         margin: 0;
         background: #e5e5e5;
+
         .text {
             padding: 15% 10% 10%;
             color: @dark-text + 30%;
 
             @media(max-width: 768px) {
                 padding: 10% 5%;
-                
+
             }
         }
     }
@@ -2378,11 +2763,11 @@ footer {
     &_content_6 {
         margin: 0;
 
-        .item{
+        .item {
             padding: 0 !important;
         }
 
-        img{
+        img {
             max-width: 100%;
         }
 
@@ -2471,7 +2856,8 @@ footer {
 
     &_content_11 {
         margin: 0;
-        img{
+
+        img {
             display: block;
             max-width: 50%;
             margin: 0 auto;
@@ -2492,11 +2878,11 @@ footer {
         padding: 150px 0 150px;
         background: linear-gradient(to bottom, #b9b9b9, #efefef);
 
-        img{
+        img {
             max-width: 100%;
         }
 
-        @media(max-width: 768px){
+        @media(max-width: 768px) {
             padding: 100px 0;
             background: #d2d0d1;
             background-size: cover;
@@ -2560,13 +2946,14 @@ footer {
 
     &_content_5 {
         margin: 0;
+
         .text {
             padding: 10% 5% 5% 10%;
             color: @dark-text + 30%;
 
             @media(max-width: 768px) {
                 padding: 10% 5%;
-                
+
             }
         }
     }
@@ -2574,11 +2961,11 @@ footer {
     &_content_6 {
         margin: 0;
 
-        .item{
+        .item {
             padding: 0 !important;
         }
 
-        img{
+        img {
             max-width: 100%;
         }
 
@@ -2665,7 +3052,8 @@ footer {
 
     &_content_11 {
         margin: 0;
-        img{
+
+        img {
             display: block;
             max-width: 50%;
             margin: 20px auto;
@@ -2686,14 +3074,15 @@ footer {
         padding: 100px 0 80px;
         background: linear-gradient(to bottom, #797979, #858585);
 
-        img{
+        img {
             max-width: 60%;
+
             @media(max-width: 768px) {
                 max-width: 80%;
             }
         }
 
-        @media(max-width: 768px){
+        @media(max-width: 768px) {
             padding: 100px 0;
             background-size: cover;
         }
@@ -2770,11 +3159,11 @@ footer {
     &_content_6 {
         margin: 0;
 
-        .item{
+        .item {
             padding: 0 !important;
         }
 
-        img{
+        img {
             max-width: 100%;
         }
 
@@ -2791,10 +3180,12 @@ footer {
     &_content_7 {
         margin: 0;
         padding: 30px 0;
-        img{
+
+        img {
             display: block;
             width: 80%;
             margin: 0 auto;
+
             @media(max-width: 768px) {
                 width: 100%;
             }
@@ -2860,7 +3251,8 @@ footer {
 
     &_content_11 {
         margin: 0;
-        img{
+
+        img {
             display: block;
             width: 50%;
             margin: 0 auto;
