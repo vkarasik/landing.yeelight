@@ -248,7 +248,7 @@ header {
             padding: 100px 0;
         }
 
-        &_1 {
+        &_4 {
             background: url('../img/banner_desktop.jpg') no-repeat center center;
             background-size: cover;
             color: @light-text + 30%;
@@ -264,6 +264,17 @@ header {
             background: url('../img/banner_ceiling.jpg') no-repeat bottom center;
             background-size: cover;
             color: @dark-text + 30%;
+        }
+        &_1 {
+            background: url('../img/banner_alice.jpg') no-repeat center center;
+            background-size: cover;
+            color: @light-text + 30%;
+            text-align: left;
+
+            @media(max-width: 768px) {
+            text-align: center;
+                
+            }
         }
     }
 
