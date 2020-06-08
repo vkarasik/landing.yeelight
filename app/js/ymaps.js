@@ -131,18 +131,18 @@ window.onload = function () {
                 "iconImageSize": [35, 35]
             }
         }],
-        "materik": [{
-            "coordinates": [53.905557, 27.433740],
-            "properties": {
-                "hintContent": "Материк",
-                "balloonContent": "ул. Притыцкого, 101"
-            },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/pin.svg",
-                "iconImageSize": [35, 35]
-            }
-        }],
+        // "materik": [{
+        //     "coordinates": [53.905557, 27.433740],
+        //     "properties": {
+        //         "hintContent": "Материк",
+        //         "balloonContent": "ул. Притыцкого, 101"
+        //     },
+        //     "options": {
+        //         "iconLayout": "default#image",
+        //         "iconImageHref": "../img/pin.svg",
+        //         "iconImageSize": [35, 35]
+        //     }
+        // }],
         "svetilkin": [{
                 "coordinates": [53.888887, 27.580552],
                 "properties": {
@@ -180,18 +180,18 @@ window.onload = function () {
                 "iconImageSize": [35, 35]
             }
         }],
-        "mile": [{
-            "coordinates": [53.968892, 27.545212],
-            "properties": {
-                "hintContent": "Mile — строительный гипермаркет",
-                "balloonContent": "Минск, Долгиновский тракт, 188"
-            },
-            "options": {
-                "iconLayout": "default#image",
-                "iconImageHref": "../img/pin.svg",
-                "iconImageSize": [35, 35]
-            }
-        }],
+        // "mile": [{
+        //     "coordinates": [53.968892, 27.545212],
+        //     "properties": {
+        //         "hintContent": "Mile — строительный гипермаркет",
+        //         "balloonContent": "Минск, Долгиновский тракт, 188"
+        //     },
+        //     "options": {
+        //         "iconLayout": "default#image",
+        //         "iconImageHref": "../img/pin.svg",
+        //         "iconImageSize": [35, 35]
+        //     }
+        // }],
         "lumio": [{
             "coordinates": [53.957169, 27.605606],
             "properties": {

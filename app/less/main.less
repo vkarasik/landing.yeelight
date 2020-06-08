@@ -221,7 +221,7 @@ header {
             color: @light-text  !important;
         }
 
-        &:hover{
+        &:hover {
             background: @yeelight-color + 10%;
         }
     }
@@ -265,6 +265,7 @@ header {
             background-size: cover;
             color: @dark-text + 30%;
         }
+
         &_1 {
             background: url('../img/banner_alice.jpg') no-repeat center center;
             background-size: cover;
@@ -272,8 +273,8 @@ header {
             text-align: left;
 
             @media(max-width: 768px) {
-            text-align: center;
-                
+                text-align: center;
+
             }
         }
     }
@@ -892,15 +893,16 @@ header {
             }
         }
 
-        .mood-switch{
+        .mood-switch {
             padding: 5% 0 10%;
             text-align: center;
-            img{
+
+            img {
                 width: 100px;
                 margin: 5px;
 
-                &:hover{
-                    cursor:pointer;
+                &:hover {
+                    cursor: pointer;
                     border: 1px solid @yeelight-color;
                 }
             }
@@ -929,42 +931,47 @@ header {
             }
         }
 
-        .color-switch{
+        .color-switch {
             padding: 5% 0 0 10%;
 
             @media(max-width: 768px) {
                 padding: 5% 0 0 5%;
             }
 
-            span{
+            span {
                 display: inline-block;
                 width: 50px;
                 height: 50px;
                 border-radius: 50%;
                 margin: 5px;
 
-                &:hover{
-                    cursor:pointer;
+                &:hover {
+                    cursor: pointer;
                     border: 3px solid #ffffff;
                 }
             }
 
-            #color_01{
+            #color_01 {
                 background: #F84763;
             }
-            #color_02{
+
+            #color_02 {
                 background: #FFA135;
             }
-            #color_03{
+
+            #color_03 {
                 background: #FFDB00;
             }
-            #color_04{
+
+            #color_04 {
                 background: #34FDFF;
             }
-            #color_05{
+
+            #color_05 {
                 background: #32B7F6;
             }
-            #color_06{
+
+            #color_06 {
                 background: #FF34E8;
             }
         }
@@ -1038,7 +1045,7 @@ header {
             padding: 0 0 0 5%;
 
             @media(max-width: 768px) {
-                text-align: left; 
+                text-align: left;
             }
         }
     }
@@ -1805,6 +1812,13 @@ header {
     .shops {
         margin: 0;
         padding: 70px 0;
+        font-family: "HelveticaNeueCyr-Roman";
+
+        p {
+            a {
+                text-decoration: underline;
+            }
+        }
     }
 
     .shop-logo {
@@ -1925,7 +1939,7 @@ header {
             }
         }
 
-        
+
 
         .icon {
             .ledtable_content_8 & {
@@ -2097,23 +2111,37 @@ table {
 footer {
     padding: 30px 0 10px;
     background: #26292E;
+    line-height: 1.2;
 
     div {
         margin-bottom: 20px;
     }
 
     h4 {
-        font-size: 120%;
+        font-size: 140%;
         text-transform: uppercase;
         color: @light-text - 50%;
         margin-bottom: 20px;
+        font-family: "HelveticaNeueCyr-Medium";
+    }
+
+    p {
+        color: @light-text - 50%;
+        font-size: 140%;
+        margin: 0 0 5px 0;
+
+        a {
+            font-size: 100%;
+            text-decoration: underline;
+        }
     }
 
     a {
         display: inline-block;
-        font-size: 120%;
-        line-height: 2.4;
+        font-size: 130%;
         color: @light-text - 50%;
+        margin: 0 0 10px 0;
+
 
         &:hover {
             text-decoration: none;
@@ -2391,8 +2419,9 @@ footer {
     }
 }
 
-.pendant{
+.pendant {
     margin-top: 80px;
+
     &_content_1 {
         margin: 0;
         padding: 120px 0 80px;
@@ -3175,7 +3204,7 @@ footer {
 
 }
 
-.yilai-lotus{
+.yilai-lotus {
     margin-top: 80px;
 
     &_content_1 {
@@ -3266,7 +3295,7 @@ footer {
     }
 }
 
-.yilai-snow{
+.yilai-snow {
     margin-top: 80px;
 
     &_content_1 {
