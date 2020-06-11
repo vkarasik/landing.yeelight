@@ -8,8 +8,8 @@
 		<meta http-equiv="Pragma" content="no-cache">
         <meta http-equiv="Expires" content="-1">
 
-        <title>Yeelight | Подвесной Crystal Pendant Light</title>
-        <meta name="description" content="Светодиодный подвесной светильник Crystal Pendant Light"/>
+        <title>Yeelight | Wireless Charge Nightlight</title>
+        <meta name="description" content="Yeelight Wireless Charge Nightlight — беспроводное зарядное устройство с ночником"/>
         <?php include '../includes/head.html';?>
     </head>
     <body>
