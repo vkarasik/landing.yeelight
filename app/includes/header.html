@@ -1,13 +1,16 @@
 <header>
     <div class="row">
-        <div class="col-xs-8 col-sm-3 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-2">
+        <div class="col-xs-9 col-sm-3 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-2">
             <a href="/" class="logo">
                 <img src="<?php $_SERVER['DOCUMENT_ROOT']?>/img/logo.svg" alt="logo">
             </a>
             <nav class="mobile" style="display: none;">
                 <ul class="menu">
                     <li class="menu-item">
-                        <a href="">Потолочные&nbsp;светильники</a>
+                        <div class="menu-item__inner">
+                            <a href="#">Потолочные&nbsp;светильники</a>
+                            <span class="arrow-down"></span>
+                        </div>
                         <ul class="sub-menu">
                             <li class="sub-menu-item">
                                 <a href="/luna/">LED&nbsp;Ceiling&nbsp;Light</a>
@@ -45,8 +48,11 @@
                         </ul>
                     </li>
                     <li class="menu-item">
-                        <a href="">Прикроватные лампы</a>
-                        <ul class="sub-menu">
+                        <div class="menu-item__inner">
+                            <a href="#">Прикроватные&nbsp;лампы</a>
+                            <span></span>
+                        </div>
+                        <ul class="sub-menu" style="display: none;">
                             <li class="sub-menu-item">
                                 <a href="/candela/">Ambient&nbsp;Candela</a>
                             </li>
@@ -62,8 +68,11 @@
                         </ul>
                     </li>
                     <li class="menu-item">
-                        <a href="">Настольные лампы</a>
-                        <ul class="sub-menu">
+                        <div class="menu-item__inner">
+                            <a href="#">Настольные&nbsp;лампы</a>
+                            <span></span>
+                        </div>
+                        <ul class="sub-menu" style="display: none;">
                             <li class="sub-menu-item">
                                 <a href="/desk/">LED&nbsp;Smart&nbsp;Desk</a>
                             </li>
@@ -85,12 +94,20 @@
                         </ul>
                     </li>
                     <li class="menu-item">
-                        <a href="/shops/">Где купить</a>
+                        <div class="menu-item__inner">
+                            <a href="/shops/">Где купить</a>
+                            <span></span>
+                        </div>
+                        <ul class="sub-menu" style="display: none;">
+                            <li class="sub-menu-item">
+                                <a href="/shops/">Все магазины на карте</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </nav>
         </div>
-        <div class="col-xs-4 col-sm-9 col-md-8 col-lg-6 menu-wrap">
+        <div class="col-xs-3 col-sm-9 col-md-8 col-lg-6 menu-wrap">
             <nav class="desktop">
                 <ul class="menu">
                     <li class="menu-item">
