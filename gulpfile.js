@@ -55,7 +55,7 @@ gulp.task('less', function () {
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('app/css'))
         .pipe(reload({ stream: true })) //Перезагрузим сервер для обновлений
-        .pipe(notify({ message: 'Изменен <%= file.relative %>' }));
+        //.pipe(notify({ message: 'Изменен <%= file.relative %>' }));
 });
 
 // подключение блоков html
@@ -64,13 +64,13 @@ gulp.task('rigger', function () {
         .pipe(rigger()) //Прогоним через rigger
         .pipe(gulp.dest('app/'))
         .pipe(reload({ stream: true })) //Перезагрузим сервер для обновлений
-        .pipe(notify({ message: 'Изменен <%= file.relative %>' }));
+        //.pipe(notify({ message: 'Изменен <%= file.relative %>' }));
 });
 
 gulp.task('reload',function(){
     gulp.src(['app/*.php', 'app/includes/**/*.*'])
         .pipe(reload({ stream: true })) //Перезагрузим сервер для обновлений
-        .pipe(notify({ message: 'Изменен <%= file.relative %>' }));
+        //.pipe(notify({ message: 'Изменен <%= file.relative %>' }));
 });
 
 // минификация css
