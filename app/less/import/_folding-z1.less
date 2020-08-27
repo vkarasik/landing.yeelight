@@ -1,0 +1,134 @@
+.folding-z1 {
+    margin-top: 80px;
+
+    &_content_1 {
+        margin: 0;
+        padding: 0 0 0;
+        background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+
+
+        @media(max-width: 768px) {
+            padding: 100px 0 0;
+        }
+
+        .text {
+            padding: 10% 0 0 10%;
+            color: lighten(@dark-text, 10%);
+
+            @media(max-width: 768px) {
+                padding: 0;
+                text-align: center;
+            }
+        }
+    }
+
+    &_content_2 {
+        margin: 0;
+
+        .text {
+            padding: 10% 5% 10% 10%;
+            color: @dark-text + 30%;
+
+            @media(max-width: 768px) {
+                padding: 10% 5%;
+            }
+        }
+    }
+
+    &_content_3 {
+        margin: 0;
+        position: relative;
+
+        .text {
+            position: absolute;
+            padding: 5% 5% 5% 10%;
+            color: @light-text;
+
+            @media(max-width: 768px) {
+                position: relative;
+                padding: 10% 5%;
+                color: @dark-text + 30%;
+            }
+        }
+
+        img {
+            margin-bottom: -2px;
+        }
+    }
+
+    &_content_4 {
+        margin: 0;
+        padding: 70px 0 0;
+        background: #454545;
+
+        .text {
+            width: 80%;
+            margin: 0 auto;
+            color: @light-text;
+
+            @media(max-width: 768px) {
+                width: 95%;
+                text-align: center;
+            }
+        }
+
+        img {
+            width: auto;
+            // max-width: 100%;
+        }
+    }
+
+    &_content_5 {
+        margin: 0;
+        padding: 80px 0 400px;
+        background: url('../img/folding-z1_05.jpg') no-repeat top center;
+        background-size: cover;
+
+        .text {
+
+            p,
+            h2 {
+                color: @light-text;
+            }
+
+            @media(max-width: 768px) {
+                text-align: center;
+            }
+        }
+
+        .play {
+            display: inline-block;
+            width: 58px;
+            height: 58px;
+        }
+    }
+
+    &_content_7 {
+        margin: 0;
+        background: #6fc3be;
+
+        .text {
+            padding: 15% 10% 10%;
+            color: @light-text + 30%;
+
+            @media(max-width: 768px) {
+                padding: 10% 5%;
+            }
+        }
+    }
+
+    &_content_11 {
+        margin: 0;
+        padding: 0;
+
+        img {
+            display: block;
+            max-width: 100%;
+            margin: 10px auto 20px;
+
+            @media(max-width: 768px) {
+                max-width: 100%;
+            }
+        }
+    }
+}
